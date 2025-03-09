@@ -1,20 +1,24 @@
-title: "My Web3 & Blockchain Blog"
+title: "Doel Sumbing Blog"
 author: "Doel Sumbing"
-email: "your-email@example.com"
-description: "Sharing about Web3, Blockchain, and Smart Contracts!"
+description: "Exploring Web3, Blockchain, and Smart Contracts"
 
-theme: minima  # Bisa diganti dengan tema lain seperti jekyll-theme-midnight
+# Gunakan tema Minimal Mistakes
+remote_theme: mmistakes/minimal-mistakes
 
-# Tambahkan plugin jika perlu
+# Plugins untuk fitur tambahan
 plugins:
   - jekyll-feed
-  - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-paginate
+  - jekyll-seo-tag
 
-# Konfigurasi navigasi blog
+# Konfigurasi postingan
 paginate: 5
 paginate_path: "/page:num/"
+permalink: /:year/:month/:day/:title/
 
-# Atur URL blog post otomatis
-permalink: /:year/:month/:day/:title.html
+# Tambahkan sosial media
+social:
+  twitter: https://x.com/Bey_id
+  github: https://github.com/doelsumbing87
+  linkedin: https://www.linkedin.com/in/abbeey/
