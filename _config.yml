@@ -1,26 +1,29 @@
-# Informasi Situs
-title: "Doel Sumbing Blog"
-description: "Mengeksplorasi Web3, Blockchain, dan Smart Contracts"
+# 🏡 Informasi Situs
+title: "🏆 Doel Sumbing Blog"
+description: "🚀 Mengeksplorasi Web3, Blockchain, dan Smart Contracts"
 lang: id-ID
 
-# Informasi Penulis
+# 👤 Informasi Penulis
 author:
-  name: "Doel Sumbing"
+  name: "💻 Doel Sumbing"
   avatar: "/assets/images/author.jpg" # Ganti dengan path gambar Anda
-  bio: "Pengembang yang berfokus pada Web3, Blockchain, dan Smart Contracts."
-  location: "Bandar Lampung, Indonesia"
+  bio: "🔥 Pengembang yang berfokus pada Web3, Blockchain, dan Smart Contracts."
+  location: "📍 Bandar Lampung, Indonesia"
   links:
-    - label: "GitHub"
+    - label: "🐙 GitHub"
+      icon: "fab fa-github"
       url: "https://github.com/doelsumbing87"
-    - label: "Twitter"
+    - label: "🐦 Twitter"
+      icon: "fab fa-twitter"
       url: "https://twitter.com/Bey_id"
-    - label: "LinkedIn"
+    - label: "💼 LinkedIn"
+      icon: "fab fa-linkedin"
       url: "https://www.linkedin.com/in/abbeey"
 
-# Tema
+# 🎨 Tema
 remote_theme: mmistakes/minimal-mistakes
 
-# Plugin
+# ⚡ Plugin
 plugins:
   - jekyll-feed
   - jekyll-sitemap
@@ -28,27 +31,27 @@ plugins:
   - jekyll-seo-tag
   - jekyll-include-cache
 
-# Navigasi
+# 🗺️ Navigasi
 nav:
-  - title: "Beranda"
+  - title: "🏠 Beranda"
     url: /
-  - title: "Tentang"
+  - title: "📖 Tentang"
     url: /about/
-  - title: "Blog"
+  - title: "📝 Blog"
     url: /blog/
-  - title: "Kontak"
+  - title: "📩 Kontak"
     url: /contact/
 
-# Skin (Pilihan warna tema)
-minimal_mistakes_skin: "air" # Pilihan: default, air, contrast, dark, etc.
+# 🌈 Skin (Pilihan warna tema)
+minimal_mistakes_skin: "air" # Pilihan: default, air, contrast, dark, dll.
 
-# Konfigurasi Posting
+# 📑 Konfigurasi Posting
 paginate: 5
 paginate_path: "/page:num/"
 permalink: /:year/:month/:day/:title/
 timezone: "Asia/Jakarta"
 
-# Defaults
+# 📝 Defaults
 defaults:
   - scope:
       path: ""
@@ -59,13 +62,13 @@ defaults:
       read_time: true
       comments: true
 
-# URL dan Build
+# 🌍 URL dan Build
 url: "https://doelsumbing87.github.io"
 baseurl: ""
 
-# Keluaran
+# ⚙️ Keluaran
 markdown: kramdown
 highlighter: rouge
 
-# SEO dan Analytics
+# 📊 SEO dan Analytics
 google_analytics: "UA-XXXXXXXXX-X" # Ganti dengan ID Google Analytics Anda
