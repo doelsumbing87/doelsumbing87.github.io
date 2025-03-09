@@ -1,35 +1,71 @@
+# Informasi Situs
 title: "Doel Sumbing Blog"
-author: "Doel Sumbing"
-description: "Exploring Web3, Blockchain, and Smart Contracts"
+description: "Mengeksplorasi Web3, Blockchain, dan Smart Contracts"
+lang: id-ID
 
-# Gunakan tema Minimal Mistakes
+# Informasi Penulis
+author:
+  name: "Doel Sumbing"
+  avatar: "/assets/images/author.jpg" # Ganti dengan path gambar Anda
+  bio: "Pengembang yang berfokus pada Web3, Blockchain, dan Smart Contracts."
+  location: "Bandar Lampung, Indonesia"
+  links:
+    - label: "GitHub"
+      url: "https://github.com/doelsumbing87"
+    - label: "Twitter"
+      url: "https://twitter.com/Bey_id"
+    - label: "LinkedIn"
+      url: "https://www.linkedin.com/in/abbeey"
+
+# Tema
 remote_theme: mmistakes/minimal-mistakes
 
-# Plugins untuk fitur tambahan
+# Plugin
 plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-seo-tag
+  - jekyll-include-cache
 
-# Konfigurasi postingan
-paginate: 5
-paginate_path: "/page:num/"
-permalink: /:year/:month/:day/:title/
-
-# Tambahkan sosial media
-social:
-  twitter: Bey_id
-  github: doelsumbing87
-  linkedin: abbeey
-
-# Menu Navigasi
+# Navigasi
 nav:
-  - title: "Home"
+  - title: "Beranda"
     url: /
-  - title: "About"
+  - title: "Tentang"
     url: /about/
   - title: "Blog"
     url: /blog/
-  - title: "Contact"
+  - title: "Kontak"
     url: /contact/
+
+# Skin (Pilihan warna tema)
+minimal_mistakes_skin: "air" # Pilihan: default, air, contrast, dark, etc.
+
+# Konfigurasi Posting
+paginate: 5
+paginate_path: "/page:num/"
+permalink: /:year/:month/:day/:title/
+timezone: "Asia/Jakarta"
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "single"
+      author_profile: true
+      read_time: true
+      comments: true
+
+# URL dan Build
+url: "https://doelsumbing87.github.io"
+baseurl: ""
+
+# Keluaran
+markdown: kramdown
+highlighter: rouge
+
+# SEO dan Analytics
+google_analytics: "UA-XXXXXXXXX-X" # Ganti dengan ID Google Analytics Anda
