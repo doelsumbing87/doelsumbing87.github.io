@@ -19,6 +19,17 @@ permalink: /:year/:month/:day/:title/
 
 # Tambahkan sosial media
 social:
-  twitter: https://x.com/Bey_id
-  github: https://github.com/doelsumbing87
-  linkedin: https://www.linkedin.com/in/abbeey/
+  twitter: Bey_id
+  github: doelsumbing87
+  linkedin: abbeey
+
+# Menu Navigasi
+nav:
+  - title: "Home"
+    url: /
+  - title: "About"
+    url: /about/
+  - title: "Blog"
+    url: /blog/
+  - title: "Contact"
+    url: /contact/
