@@ -1,18 +1,9 @@
 ---
 layout: home
-title: "Welcome to My Blog!"
+title: "Welcome to Doel's Blog"
+author_profile: true
 ---
 
-# 🚀 Welcome to My Web3 & Blockchain Blog!
-
-Hi, I'm **Doel Sumbing**!  
-I share insights about **Web3, Blockchain, Smart Contracts, and Decentralized Technologies**.
-
-## 📝 Latest Posts
-{% for post in site.posts %}
-- 📅 **{{ post.date | date: "%B %d, %Y" }}** - [{{ post.title }}]({{ post.url }})
-{% endfor %}
-
----
-
-Thanks for visiting! 🚀✨
+## 🚀 About This Blog
+This blog covers **Web3, Blockchain, Smart Contracts, and Software Development**.  
+Stay tuned for insights and tutorials!  
