@@ -21,6 +21,10 @@ author:
     - label: "LinkedIn"
       icon: "fab fa-linkedin"
       url: "https://www.linkedin.com/in/abbeey"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/Abbeey.eth"
+     
 
 # 🎨 Tema
 remote_theme: mmistakes/minimal-mistakes
