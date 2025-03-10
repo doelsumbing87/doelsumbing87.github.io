@@ -7,6 +7,7 @@ tags: [smart contracts, blockchain, cryptocurrency, decentralized applications, 
 author_profile: true
 description: "Pahami konsep dasar smart contracts, cara kerjanya, dan bagaimana teknologi ini digunakan untuk meningkatkan efisiensi dan keamanan transaksi di blockchain."
 image: "/assets/images/smart-contracts.jpg"  # Ganti dengan path gambar terkait
+comments: true
 ---
 
 Smart contracts adalah salah satu inovasi terbesar yang dibawa oleh teknologi **Blockchain**. Dalam artikel ini, kita akan membahas apa itu smart contracts, bagaimana cara kerjanya, dan mengapa mereka menjadi elemen penting dalam dunia **Web3** dan **cryptocurrency**.
