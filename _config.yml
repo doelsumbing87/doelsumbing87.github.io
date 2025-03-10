@@ -37,7 +37,7 @@ plugins:
 # 🗺️ Navigasi
 nav:
   - title: "🏠 Beranda"
-    url: /
+    url: / 
   - title: "📖 Tentang"
     url: /about/
   - title: "📝 Blog"
@@ -67,7 +67,7 @@ defaults:
 
 # 🌍 URL dan Build
 url: "https://doelsumbing87.github.io"
-baseurl: ""
+baseurl: "" 
 
 # ⚙️ Keluaran
 markdown: kramdown
@@ -82,3 +82,6 @@ seo:
     description: "Doel Sumbing Blog – Menyajikan konten tentang Web3, Blockchain, dan Smart Contracts"
     keywords: "Web3, Blockchain, Smart Contracts, Pengembangan, Teknologi"
     robots: "index, follow"  # Untuk memastikan halaman diindeks oleh mesin pencari
+
+# 🔒 Pengaturan HTTPS dan Keamanan
+secure_urls: true # Menggunakan HTTPS secara default
