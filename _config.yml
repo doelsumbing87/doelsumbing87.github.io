@@ -1,22 +1,24 @@
 # 🏡 Informasi Situs
-title: " Doel Sumbing Blog"
-description: "🚀 Mengeksplorasi Web3, Blockchain, dan Smart Contracts"
+title: "Doel Sumbing Blog"
+description: "🚀 Mengeksplorasi Web3, Blockchain, dan Smart Contracts."
 lang: id-ID
+url: "https://doelsumbing87.github.io"  # Pastikan URL sesuai dengan situs Anda
+baseurl: ""  # Jika situs di-root direktori GitHub, biarkan kosong
 
 # 👤 Informasi Penulis
 author:
-  name: " Doel Sumbing"
+  name: "Doel Sumbing"
   avatar: "/assets/images/author.jpg" # Ganti dengan path gambar Anda
-  bio: " Pengembang yang berfokus pada Web3, Blockchain, dan Smart Contracts."
+  bio: "Pengembang yang berfokus pada Web3, Blockchain, dan Smart Contracts."
   location: "📍 Bandar Lampung, Indonesia"
   links:
-    - label: " GitHub"
+    - label: "GitHub"
       icon: "fab fa-github"
       url: "https://github.com/doelsumbing87"
-    - label: " Twitter"
+    - label: "Twitter"
       icon: "fab fa-twitter"
       url: "https://twitter.com/Bey_id"
-    - label: " LinkedIn"
+    - label: "LinkedIn"
       icon: "fab fa-linkedin"
       url: "https://www.linkedin.com/in/abbeey"
 
@@ -72,3 +74,10 @@ highlighter: rouge
 
 # 📊 SEO dan Analytics
 google_analytics: "UA-XXXXXXXXX-X" # Ganti dengan ID Google Analytics Anda
+
+# 🔧 SEO Tambahan
+seo:
+  meta_tags:
+    description: "Doel Sumbing Blog – Menyajikan konten tentang Web3, Blockchain, dan Smart Contracts"
+    keywords: "Web3, Blockchain, Smart Contracts, Pengembangan, Teknologi"
+    robots: "index, follow"  # Untuk memastikan halaman diindeks oleh mesin pencari
