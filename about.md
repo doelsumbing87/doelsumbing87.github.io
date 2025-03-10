@@ -31,12 +31,3 @@ image: "/assets/images/about-image.jpg"  # Ganti dengan path gambar terkait
 </div>
 
 ---
-
-### SEO Considerations:
-1. **Meta Description**: Deskripsi yang jelas dan ringkas tentang diri Anda dan topik yang Anda bahas di blog. Hal ini membantu mesin pencari mengetahui konten halaman dan membuatnya lebih mudah ditemukan.
-2. **Alt Text untuk Gambar**: Gunakan deskripsi yang relevan untuk gambar yang ada di halaman seperti "Doel Sumbing - Web3 dan Blockchain Developer".
-3. **Penggunaan Kata Kunci**: Kata kunci seperti "Web3", "Blockchain", "Smart Contracts", "dApps", "DeFi", dan "NFTs" harus digunakan dengan bijak di seluruh halaman untuk mengoptimalkan SEO.
-
----
-
-Dengan penambahan ini, halaman **About** Anda akan memberikan gambaran yang lebih lengkap dan profesional tentang siapa Anda dan apa yang dapat pembaca harapkan dari blog Anda. Ini juga akan membantu dalam meningkatkan SEO untuk menarik lebih banyak audiens yang tertarik pada topik teknologi terbaru.
