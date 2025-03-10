@@ -32,6 +32,7 @@ plugins:
   - jekyll-paginate
   - jekyll-seo-tag
   - jekyll-include-cache
+  - jekyll-comments # Pastikan plugin komentar sudah ada jika menggunakan Disqus atau platform komentar lainnya
 
 # 🗺️ Navigasi
 nav:
@@ -62,7 +63,7 @@ defaults:
       layout: "single"
       author_profile: true
       read_time: true
-      comments: true
+      comments: true # Mengaktifkan komentar pada setiap postingan
 
 # 🌍 URL dan Build
 url: "https://doelsumbing87.github.io"
