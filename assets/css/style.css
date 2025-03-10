@@ -1,16 +1,47 @@
+/* Font dan Pengaturan Dasar */
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: #3498db;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #2980b9;
+}
+
+/* Tombol (Button) */
 .btn {
   display: inline-block;
-  padding: 10px 20px;
+  padding: 12px 24px;
   background-color: #3498db;
   color: #fff;
   text-align: center;
   border-radius: 5px;
   text-decoration: none;
-  transition: background-color 0.3s ease;
+  font-size: 16px;
+  font-weight: 600;
+  transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 .btn:hover {
   background-color: #2980b9;
+  transform: translateY(-2px); /* Efek angkat saat hover */
 }
 
 .btn-primary {
@@ -19,4 +50,113 @@
 
 .btn-primary:hover {
   background-color: #2980b9;
+}
+
+.btn-secondary {
+  background-color: #95a5a6;
+}
+
+.btn-secondary:hover {
+  background-color: #7f8c8d;
+}
+
+/* Kontainer Utama */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header */
+header {
+  background-color: #fff;
+  padding: 20px 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 40px;
+}
+
+header h1 {
+  font-size: 2.5em;
+  color: #3498db;
+  text-align: center;
+  margin: 0;
+}
+
+/* Navigasi */
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  font-size: 1.1em;
+}
+
+nav ul li a {
+  color: #333;
+  padding: 10px 15px;
+  display: block;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+  background-color: #f1f1f1;
+}
+
+/* Postingan Blog */
+.article-post {
+  background-color: #fff;
+  margin-bottom: 40px;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.article-post h2 {
+  font-size: 2em;
+  color: #333;
+}
+
+.article-post p {
+  font-size: 1.1em;
+  line-height: 1.7;
+  color: #555;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 60px;
+}
+
+footer a {
+  color: #fff;
+}
+
+footer a:hover {
+  color: #3498db;
+}
+
+/* Responsivitas */
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .article-post {
+    padding: 20px;
+  }
 }
