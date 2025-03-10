@@ -1,0 +1,27 @@
+- title: "🏠 Beranda"
+  url: "/"
+
+- title: "📖 Tentang"
+  url: "/about/"
+
+- title: "📝 Blog"
+  url: "/blog/"
+
+- title: "📩 Kontak"
+  url: "/contact/"
+
+- title: "🔗 Github"
+  url: "https://github.com/doelsumbing87"
+  external: true
+
+- title: "🐦 Twitter"
+  url: "https://twitter.com/Bey_id"
+  external: true
+
+- title: "🔗 LinkedIn"
+  url: "https://www.linkedin.com/in/abbeey"
+  external: true
+  
+- label: "Instagram"
+  url: "https://instagram.com/abbeey.eth"
+  external: true
