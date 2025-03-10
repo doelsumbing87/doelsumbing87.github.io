@@ -29,13 +29,3 @@ This blog aims to help both technical and non-technical readers grasp complex co
 Feel free to explore my posts, and join the conversation in the comments. Don’t forget to subscribe for the latest updates on blockchain, Web3, and smart contract developments.
 
 ---
-
-### SEO Considerations:
-1. **Meta Description**: Deskripsi singkat ini menyertakan kata kunci seperti "Web3", "Blockchain", "Smart Contracts", "NFTs", dan "Software Development", yang membantu mesin pencari untuk memahami tema blog.
-2. **Title Tag**: Pastikan judul halaman, "Welcome to Doel's Blog", juga relevan untuk SEO.
-3. **Kata Kunci**: Gunakan kata kunci seperti "Web3", "Blockchain", "Smart Contracts", "NFTs", dan "Software Development" yang relevan di seluruh konten.
-4. **Alt Text untuk Gambar**: Gambar hero harus memiliki teks alternatif yang deskriptif, seperti "Doel's Blog - Web3 Blockchain Smart Contracts".
-
----
-
-Dengan pembaruan ini, halaman utama blog Anda akan lebih profesional dan lebih mudah ditemukan oleh pembaca yang tertarik pada topik yang Anda bahas. Selain itu, SEO yang lebih baik akan membantu Anda mencapai audiens yang lebih luas.
